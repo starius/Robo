@@ -472,7 +472,7 @@ msgstr ""
 "Der Ausdruck ist auch auf Leansch äquivalent zu §3."
 
 #. §0: `P : T → Prop`
-#. §1: `{ a : T | P a } : Set P`
+#. §1: `{ a : T | P a } : Set T`
 #. §2: ```
 #. { n : ℕ | Even n }
 #. ```

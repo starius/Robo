@@ -321,7 +321,7 @@ msgstr ""
 "Para subconjuntos de la forma §7, puedes simplificar el enunciado §8 con §9 a §10."
 
 #. §0: `P : T → Prop`
-#. §1: `{ a : T | P a } : Set P`
+#. §1: `{ a : T | P a } : Set T`
 #. §2: ```
 #. { n : ℕ | Even n }
 #. ```

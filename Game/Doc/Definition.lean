@@ -165,7 +165,7 @@ For subsets of the form `A = { a : T | P a }`, you can simplify the statement
 DefinitionDoc Mem as "∈" in "Set"
 
 /--
-For a predicate `P : T → Prop`, `{ a : T | P a } : Set P` is the subset
+For a predicate `P : T → Prop`, `{ a : T | P a } : Set T` is the subset
 consisting of all elements that satisfy the predicate.  For example,
 ```
 { n : ℕ | Even n }

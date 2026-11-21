@@ -425,7 +425,7 @@ msgid "For a matrix §0, §1 is the trace of §2. The expression is also equival
 msgstr "For a matrix §0, §1 is the trace of §2. As you could expect, this expression is equivalent to §3 in Leanish."
 
 #. §0: `P : T → Prop`
-#. §1: `{ a : T | P a } : Set P`
+#. §1: `{ a : T | P a } : Set T`
 #. §2: ```
 #. { n : ℕ | Even n }
 #. ```

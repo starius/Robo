@@ -2693,7 +2693,7 @@ msgstr "**Glifo**: Ahora te queda demostrar tu objetivo suponiendo la mitad dere
 #. §25: `left`
 #. §26: `right`
 #. §27: `obtain ⟨h₁, h₂⟩ := h`
-#. §28: `obtain h := h \\| h`
+#. §28: `obtain h \\| h := h`
 #: Game/Levels/Logo/L13_Or.lean:116
 msgid ""
 "Conclusion Logo L13:\n"

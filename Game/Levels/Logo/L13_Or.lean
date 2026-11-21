@@ -106,7 +106,7 @@ Hier sind alle Taktiken, die wir auf diesem Planeten gebraucht haben:
 | 5  | `constructor`             | Teilt ein UND im Goal auf.                         |
 | 6  | `left`/`right`            | Beweist eine Seite eines ODER im Goal.             |
 | 7ᵃ | `obtain ⟨h₁, h₂⟩ := h`    | Teilt ein UND in den Annahmen auf.                 |
-| 7ᵇ | `obtain h := h \\| h`     | Teilt ein ODER in den Annahmen in zwei Fälle auf.  |
+| 7ᵇ | `obtain h \\| h := h`     | Teilt ein ODER in den Annahmen in zwei Fälle auf.  |
 
 **Du** Woher weißt du das eigentlich alles?
 
@@ -119,7 +119,7 @@ Notations introdced so far:
 `False` (`(False : Prop)` is always false), `¬`, `∧`, `∨`, `(n : ℕ)`, `(A : Prop)`, `(ha : A)` (Proof that `(A : Prop)` is true),
  `(h : A ∧ B)` (Assumption with name `h`).
 Tactics introduced so far:
-`rfl` (proves `A = A`), `assumption`, `contradiction`, `decide`, `constructor`, `left`/`right`, `obtain ⟨h₁, h₂⟩ := h`, `obtain h := h \\| h`
+`rfl` (proves `A = A`), `assumption`, `contradiction`, `decide`, `constructor`, `left`/`right`, `obtain ⟨h₁, h₂⟩ := h`, `obtain h \\| h := h`
 "
 
 DisabledTactic tauto

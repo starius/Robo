@@ -4829,7 +4829,7 @@ msgstr "**Robo**: Wusste gar nicht, dass du eine Links-Rechts-Schwäche hast. Pr
 #. §25: `left`
 #. §26: `right`
 #. §27: `obtain ⟨h₁, h₂⟩ := h`
-#. §28: `obtain h := h \\| h`
+#. §28: `obtain h \\| h := h`
 #: Game.Levels.Logo.L13_Or
 msgid ""
 "Conclusion Logo L13:\n"

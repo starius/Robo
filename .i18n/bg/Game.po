@@ -2758,7 +2758,7 @@ msgstr "Покажи целта чрез §0, т.е. допусни, че §1 е
 #. §25: `left`
 #. §26: `right`
 #. §27: `obtain ⟨h₁, h₂⟩ := h`
-#. §28: `obtain h := h \\| h`
+#. §28: `obtain h \\| h := h`
 #: Game/Levels/Logo/L13_Or.lean:116
 #, fuzzy
 msgid ""

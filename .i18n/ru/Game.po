@@ -195,7 +195,7 @@ msgstr ""
 #. §4: `f '' univ`
 #. §5: `mem_range`
 #. §6: ```
-#. x ∈ range f ↔ ∃ a, f a = b
+#. x ∈ range f ↔ ∃ a, f a = x
 #. ```
 #: Game/Doc/Definition.lean:93
 #, fuzzy
@@ -8941,7 +8941,7 @@ msgstr "**Араука**:  Миленько, нарядненько."
 #. §3: `f '' univ`
 #. §4: `mem_range`
 #. §5: ```
-#. x ∈ range f ↔ ∃ a, f a = b
+#. x ∈ range f ↔ ∃ a, f a = x
 #. ```
 #: Game/Levels/Samarkand/L03_SurjectiveRange.lean:29
 #, fuzzy

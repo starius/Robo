@@ -433,7 +433,7 @@ msgstr "对一个映射 §0，§1 是作用在幂集上的一个诱导映射—�
 #. §4: `f '' univ`
 #. §5: `mem_range`
 #. §6: ```
-#. x ∈ range f ↔ ∃ a, f a = b
+#. x ∈ range f ↔ ∃ a, f a = x
 #. ```
 #: Game.Doc.Definition
 msgid ""
@@ -7996,7 +7996,7 @@ msgstr ""
 #. §3: `f '' univ`
 #. §4: `mem_range`
 #. §5: ```
-#. x ∈ range f ↔ ∃ a, f a = b
+#. x ∈ range f ↔ ∃ a, f a = x
 #. ```
 #: Game.Levels.Samarkand.L03_SurjectiveRange
 msgid ""

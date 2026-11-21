@@ -99,7 +99,7 @@ range f = {f a | a : A}
 Is a diffierent notation for `f '' univ`.
 `mem_range` is useful to work with it:
 ```
-x ∈ range f ↔ ∃ a, f a = b
+x ∈ range f ↔ ∃ a, f a = x
 ```
 -/
 DefinitionDoc Set.range as "range" in "Set"

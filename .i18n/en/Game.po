@@ -390,7 +390,7 @@ msgstr "For a map §0, the map §1 is one of the induced maps between the power 
 #. §4: `f '' univ`
 #. §5: `mem_range`
 #. §6: ```
-#. x ∈ range f ↔ ∃ a, f a = b
+#. x ∈ range f ↔ ∃ a, f a = x
 #. ```
 #: Game.Doc.Definition
 msgid ""
@@ -7837,7 +7837,7 @@ msgstr ""
 #. §3: `f '' univ`
 #. §4: `mem_range`
 #. §5: ```
-#. x ∈ range f ↔ ∃ a, f a = b
+#. x ∈ range f ↔ ∃ a, f a = x
 #. ```
 #: Game.Levels.Samarkand.L03_SurjectiveRange
 msgid ""

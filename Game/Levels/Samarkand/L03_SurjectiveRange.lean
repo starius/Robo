@@ -22,7 +22,7 @@ Statement {A B : Type} {f : A → B} : Surjective f ↔ range f = univ := by
     Das ist also im wesentlichen eine andere Schreibweise für `f '' univ`.
     Um damit zu arbeiten, ist `mem_range` ganz nützlich:
     ```
-    x ∈ range f ↔ ∃ a, f a = b
+    x ∈ range f ↔ ∃ a, f a = x
     ```
   "
   -/
@@ -33,7 +33,7 @@ Statement {A B : Type} {f : A → B} : Surjective f ↔ range f = univ := by
     ```
    and its equivalent `f '' univ`. Mention `mem_range`:
     ```
-    x ∈ range f ↔ ∃ a, f a = b
+    x ∈ range f ↔ ∃ a, f a = x
     ```
    "
   /-

@@ -56,7 +56,7 @@ Statement Matrix.one_on_diag_ebasis {n : ℕ} {f : Mat[n, n][ℝ] →ₗ[ℝ] �
     \\end\{aligned}
   $$
 
-  Der wesentlich Punkt ist, dass wir ja gesehen hatten, dass `f E i i` und `f E j j` für beliebige `i` und `j` gleich sind.  Also sind sie in der Summe austauschbar.
+  Der wesentlich Punkt ist, dass wir ja gesehen hatten, dass `f (E i i)` und `f (E j j)` für beliebige `i` und `j` gleich sind.  Also sind sie in der Summe austauschbar.
 
   **Robo**: Mmm.  Du willst jedenfalls zunächst ausnutzen, dass Multiplikation mit `{n}` injektiv ist?
      Hatten wir dazu nicht mal ein Lemma? Mmm …
@@ -82,7 +82,7 @@ Statement Matrix.one_on_diag_ebasis {n : ℕ} {f : Mat[n, n][ℝ] →ₗ[ℝ] �
     \\end\{aligned}
   $$
 
-  Keep in mind that `f E i i` and `f E j j` are equal for arbitrary `i` and `j`. Use fact that
+  Keep in mind that `f (E i i)` and `f (E j j)` are equal for arbitrary `i` and `j`. Use fact that
   multiplications with `{n}` are injective. Try
   ```
   suffices h : n * f (E i i) = n * 1

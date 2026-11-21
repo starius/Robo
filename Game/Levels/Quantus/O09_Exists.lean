@@ -31,10 +31,10 @@ Statement (n : ℕ) (h : Odd n) : Odd (n ^ 2) := by
     unfold Odd at *
     /-
     Hint (hidden := true) "
-      **Robo**: mit `choose r hr⟩ using h` kannst du wieder
+      **Robo**: mit `choose r hr using h` kannst du wieder
       das `r` nehmen, das laut Annahme existieren muss."
     -/
-    Hint (hidden := true) "Take `r` by `choose r hr⟩ using h`"
+    Hint (hidden := true) "Take `r` by `choose r hr using h`"
     choose r hr using h
     /-
     Hint "

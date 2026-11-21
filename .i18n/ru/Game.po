@@ -432,7 +432,7 @@ msgstr ""
 #. §2: `∅ : Set ℝ`
 #. §3: `rw [eq_empty_iff_forall_notMem]`
 #. §4: `S = ∅`
-#. §5: `∀ (x : T), x ∉ s`
+#. §5: `∀ (x : T), x ∉ S`
 #. §6: `∅`
 #. §7: `\\emptyset`
 #: Game/Doc/Definition.lean:199

@@ -202,7 +202,7 @@ In the Formaloverse `∅ : Set ℕ` is something different than `∅ : Set ℝ`
 – one is a subset of ℕ, the other is a subset of ℝ!
 
 With `rw [eq_empty_iff_forall_notMem]` you translate the equation `S = ∅` into the
-statement `∀ (x : T), x ∉ s`.
+statement `∀ (x : T), x ∉ S`.
 
 `∅` is written as `\emptyset`.
 -/

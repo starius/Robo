@@ -46,8 +46,8 @@ Statement Nat.pos_iff_ne_zero (n : ℕ) : 0 < n ↔ n ≠ 0 := by
   Hint "Case `n ≠ 0`"
   Branch
     simp only [ne_eq, succ_ne_zero, not_false_iff, iff_true]
-    -- Hint "**Robo**: Warte! Für den Rest zitieren wir einfach ein anderes Lemma: `Nat.suc_pos`."
-    Hint "Try `Nat.suc_pos`"
+    -- Hint "**Robo**: Warte! Für den Rest zitieren wir einfach ein anderes Lemma: `Nat.succ_pos`."
+    Hint "Try `Nat.succ_pos`"
     apply Nat.succ_pos
   Branch
     simp?
@@ -55,8 +55,8 @@ Statement Nat.pos_iff_ne_zero (n : ℕ) : 0 < n ↔ n ≠ 0 := by
   intro
   simp
   intro
-  -- Hint "**Robo**: Warte! Für den Rest zitieren wir einfach ein anderes Lemma: `Nat.suc_pos`."
-  Hint "Try `Nat.suc_pos`"
+  -- Hint "**Robo**: Warte! Für den Rest zitieren wir einfach ein anderes Lemma: `Nat.succ_pos`."
+  Hint "Try `Nat.succ_pos`"
   apply Nat.succ_pos
 
 NewTactic simp

@@ -20,7 +20,7 @@ TacticDoc assumption
 
 /--
 The tactic `by_cases h : P` begins a case distinction as to whether `P` is true or false.
-For example, `by cases h : a = b` distinguishes between the cases `a = b` and `a ≠ b`.
+For example, `by_cases h : a = b` distinguishes between the cases `a = b` and `a ≠ b`.
 
 The proof goal is duplicated for this purpose, and
 the assumption `(h : P)` is added to the first “copy,”

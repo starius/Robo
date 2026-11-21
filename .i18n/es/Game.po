@@ -1233,7 +1233,7 @@ msgstr "La táctica §0 cierra la demostración cuando una de las hipótesis coi
 
 #. §0: `by_cases h : P`
 #. §1: `P`
-#. §2: `by cases h : a = b`
+#. §2: `by_cases h : a = b`
 #. §3: `a = b`
 #. §4: `a ≠ b`
 #. §5: `(h : P)`

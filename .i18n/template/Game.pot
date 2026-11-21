@@ -1148,7 +1148,7 @@ msgstr ""
 
 #. §0: `induction n`
 #. §1: `n`
-#. §2: `induction n with d dh`
+#. §2: `induction n with d hd`
 #. §3: `d`
 #. §4: `hd`
 #. §5: `n = 0`

@@ -227,7 +227,7 @@ TacticDoc «if»
 
 /--
 The tactic `induction n` performs an inductive proof over `n`.
-With `induction n with d dh`, you can specify names for the induction variable (here: `d`)
+With `induction n with d hd`, you can specify names for the induction variable (here: `d`)
 and the induction assumption (here: `hd`).
 The tactic thus replaces the original proof goal with two new proof goals:
 * an induction start, in which `n = 0` is set, and

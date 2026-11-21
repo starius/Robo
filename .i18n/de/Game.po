@@ -401,27 +401,27 @@ msgstr ""
 
 #. §0: `f : A → B`
 #. §1: `image f : Set A → Set B`
-#. §2: `A`
-#. §3: `f '' A`
+#. §2: `S : Set A`
+#. §3: `f '' S`
 #. §4: `f`
 #: Game.Doc.Definition
 msgid ""
 "For a mapping §0, §1\n"
 "is one of the induced mappings on the power sets –\n"
-"it maps a subset of §2 to the image §3 of this subset under §4."
-msgstr "Für eine Abbildung §0 ist §1 eine der induzierten Abbildung auf den Potenzmengen – sie bildet eine Teilmenge von §2 ab auf das Bild §3 dieser Teilmenge unter §4."
+"it maps a subset §2 to the image §3 of this subset under §4."
+msgstr "Für eine Abbildung §0 ist §1 eine der induzierten Abbildung auf den Potenzmengen – sie bildet eine Teilmenge §2 ab auf das Bild §3 dieser Teilmenge unter §4."
 
 #. §0: `f : A → B`
 #. §1: `preimage f : Set B → Set A`
-#. §2: `B`
-#. §3: `f ⁻¹' A`
+#. §2: `T : Set B`
+#. §3: `f ⁻¹' T`
 #. §4: `f`
 #: Game.Doc.Definition
 msgid ""
 "For a mapping §0, §1\n"
 "is one of the induced mappings on the power sets –\n"
-"it maps a subset of §2 to the preimage §3 of this subset under §4."
-msgstr "Für eine Abbildung §0 ist §1 eine der induzierten Abbildung auf den Potenzmengen – sie bildet eine Teilmenge von §2 ab auf das Urbild §3 dieser Teilmenge unter §4."
+"it maps a subset §2 to the preimage §3 of this subset under §4."
+msgstr "Für eine Abbildung §0 ist §1 eine der induzierten Abbildung auf den Potenzmengen – sie bildet eine Teilmenge §2 ab auf das Urbild §3 dieser Teilmenge unter §4."
 
 #. §0: `f : A → B`
 #. §1: `range f`

@@ -107,14 +107,14 @@ DefinitionDoc Set.range as "range" in "Set"
 /--
 For a mapping `f : A → B`, `image f : Set A → Set B`
 is one of the induced mappings on the power sets –
-it maps a subset of `A` to the image `f '' A` of this subset under `f`.
+it maps a subset `S : Set A` to the image `f '' S` of this subset under `f`.
 -/
 DefinitionDoc Set.image as "image" in "Set"
 
 /--
 For a mapping `f : A → B`, `preimage f : Set B → Set A`
 is one of the induced mappings on the power sets –
-it maps a subset of `B` to the preimage `f ⁻¹' A` of this subset under `f`.
+it maps a subset `T : Set B` to the preimage `f ⁻¹' T` of this subset under `f`.
 -/
 DefinitionDoc Set.preimage as "preimage" in "Set"
 

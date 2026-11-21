@@ -1686,11 +1686,11 @@ msgstr ""
 #. §12: `intro h`
 #. §13: `h : A`
 #. §14: `⊢ B`
-#. §15: `⊢  x, P x`
+#. §15: `⊢ ∀ x : X, P x → Q x`
 #. §16: `intro x hx`
 #. §17: `x : X`
 #. §18: `hx : P x`
-#. §19: `⊢ P x`
+#. §19: `⊢ Q x`
 #. §20: `revert h`
 #. §21: `intro h`
 #: Game/Doc/Tactic.lean:266

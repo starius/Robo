@@ -272,7 +272,7 @@ If your proof goal is `∀ x, P x`, `intro x` gices you an arbitrary `x` and you
 | before | tactic       | after                     |
 |:------------ |:------------ |:---------------------------- |
 | `⊢ A → B`    | `intro h`    | `h : A`, `⊢ B`               |
-| `⊢  x, P x`  | `intro x hx` | `x : X`, `hx : P x`, `⊢ P x` |
+| `⊢ ∀ x : X, P x → Q x`  | `intro x hx` | `x : X`, `hx : P x`, `⊢ Q x` |
 
 
 ## Friends and relatives
